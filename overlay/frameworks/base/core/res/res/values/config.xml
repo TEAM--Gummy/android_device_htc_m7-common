@@ -78,9 +78,6 @@
              4 - Menu
              8 - Search
             16 - App switch
-         For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">3</integer>
 
     <!-- Default color for notification LED is green. -->
     <color name="config_defaultNotificationColor">#ff00ff00</color>
@@ -238,9 +235,4 @@
          If false, Content-disposition fragments are ignored -->
     <bool name="config_mms_content_disposition_support">false</bool>
 
-    <!-- Is the device capable of hot swapping an UICC card -->
-    <bool name="config_hotswapCapable">true</bool>
 
-    <!-- Button illumination -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-</resources>

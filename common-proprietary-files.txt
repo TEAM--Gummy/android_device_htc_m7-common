@@ -3,8 +3,6 @@ bin/akmd
 bin/ks
 bin/mm-qcamera-daemon
 bin/mpdecision
-bin/netmgrd
-bin/qmuxd
 bin/thermald
 
 # Configuration files
@@ -126,7 +124,6 @@ lib/libmmcamera_rawchipproc.so
 lib/libmmcamera_rubik.so
 lib/libmmcamera_statsproc31.so
 lib/libmmcamera_wavelet_lib.so
-lib/libmm-color-convertor.so
 lib/libmmipl.so
 lib/libmmjpeg.so
 lib/libmmstillomx.so
@@ -176,6 +173,10 @@ vendor/firmware/keymaster/keymaster.b02
 vendor/firmware/keymaster/keymaster.b03
 vendor/firmware/keymaster/keymaster.mdt
 
+# Media
+lib/libI420colorconvert.so
+lib/libmm-color-convertor.so
+
 # Modem firmware
 etc/firmware/hcheck.b00
 etc/firmware/hcheck.b01
@@ -189,24 +190,7 @@ etc/firmware/tzapps.b02
 etc/firmware/tzapps.b03
 etc/firmware/tzapps.mdt
 
-# Qualcomm/HTC common libs
-lib/libdiag.so
-lib/libdsi_netctrl.so
-lib/libdsutils.so
-lib/libidl.so
-lib/libqcci_legacy.so
-lib/libqdi.so
-lib/libqdp.so
-lib/libqmi.so
-lib/libqmi_cci.so
-lib/libqmi_client_qmux.so
-lib/libqmi_common_so.so
-lib/libqmi_csi.so
-lib/libqmi_encdec.so
-lib/libqmiservices.so
-
-# Radio
-lib/libnetmgr.so
+# Qualcomm extra
 lib/libqc-opt.so
 
 # Sensors

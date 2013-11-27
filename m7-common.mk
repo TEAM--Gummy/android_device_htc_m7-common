@@ -174,6 +174,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=3000 \
     dalvik.vm.dexopt-data-only=1
+    ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so
 
 # Set build date
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0

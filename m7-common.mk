@@ -175,8 +175,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608 \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=3000 \
-    dalvik.vm.dexopt-data-only=1
-    ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so
+    dalvik.vm.dexopt-data-only=1 \
+    ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so \
+    ro.config.hw_quickpoweron=true
 
 # Set build date
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
